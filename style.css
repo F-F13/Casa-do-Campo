@@ -1,0 +1,51 @@
+.bg-body1 {
+    --bs-bg-opacity: 1;
+    background-color:yellow;
+}
+.bg-body1 img{
+    width: 130px;
+    height: 80px;
+}
+
+.btn-buscar {
+    --bs-btn-color: black;
+    --bs-btn-border-color: white;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: black;
+    --bs-btn-hover-border-color: black;
+    --bs-btn-focus-shadow-rgb: 25, 135, 84;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: black;
+    --bs-btn-active-border-color: black;
+    --bs-btn-active-shadow: black;
+    --bs-btn-disabled-color: black;
+    --bs-btn-disabled-bg: black;
+    --bs-btn-disabled-border-color: black;
+    --bs-gradient: black;
+}
+
+#section-vendidos img{
+    width: 500px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+#section-vendidos{
+    text-align: center;
+}
+#section-vendidos h2{
+    font-weight: bold;
+    padding: 20px;
+}
+
+#section-vendidos .card{
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+#section-vendidos .preco{
+    color: #f5d020;
+    font-size: 18px;
+    font-weight: bold;
+}
